@@ -1,7 +1,1 @@
-var body = $response.body;
-
-body = body.replace(/"\w+_name"/g, '"vip_expire":"2999-12-31 18:10:32","flag":"year","qq_name"');
-
-
-
-$done({ body });
+;eval(function(p,a,c,k,e,r){e=String;if('0'.replace(0,e)==0){while(c--)r[e(c)]=k[c];k=[function(e){return r[e]||e}];e=function(){return'[01]'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('var 0=$response.0;0=0.replace(/"1":"\\d+/g,\'"1":"2099\');$done({0});',[],2,'body|vip_expire'.split('|'),0,{}));
